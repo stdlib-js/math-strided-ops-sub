@@ -1,0 +1,39 @@
+{
+  "name": "@stdlib/math-strided-ops-sub",
+  "version": "0.0.0",
+  "description": "Element-wise subtraction of two strided arrays.",
+  "license": "Apache-2.0",
+  "type": "module",
+  "main": "./mod.js",
+  "homepage": "https://stdlib.io",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/stdlib-js/math-strided-ops-sub.git"
+  },
+  "bugs": {
+    "url": "https://github.com/stdlib-js/stdlib/issues"
+  },
+  "keywords": [
+    "stdlib",
+    "stdmath",
+    "mathematics",
+    "math",
+    "sum",
+    "summation",
+    "subtract",
+    "subtraction",
+    "add",
+    "addition",
+    "minus",
+    "arithmetic",
+    "vector",
+    "array",
+    "strided",
+    "ndarray",
+    "element-wise"
+  ],
+  "funding": {
+    "type": "patreon",
+    "url": "https://www.patreon.com/athan"
+  }
+}
