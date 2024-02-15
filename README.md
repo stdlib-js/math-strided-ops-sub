@@ -50,7 +50,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import sub from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-strided-ops-sub@esm/index.mjs';
+import sub from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-strided-ops-sub@v0.2.0-esm/index.mjs';
 ```
 
 #### sub( N, dtypeX, x, strideX, dtypeY, y, strideY, dtypeZ, z, strideZ )
@@ -172,7 +172,7 @@ sub.ndarray( 3, 'float64', x, 2, 1, 'float64', y, -1, y.length-1, 'float64', z, 
 var uniform = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/random-base-discrete-uniform' ).factory;
 import filledarray from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-filled@esm/index.mjs';
 import filledarrayBy from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-filled-by@esm/index.mjs';
-import sub from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-strided-ops-sub@esm/index.mjs';
+import sub from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-strided-ops-sub@v0.2.0-esm/index.mjs';
 
 var dt;
 var x;
