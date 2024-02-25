@@ -50,6 +50,11 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import sub from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-strided-ops-sub@deno/mod.js';
+```
+The previous example will load the latest bundled code from the deno branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/math-strided-ops-sub/tags). For example,
+
+```javascript
 import sub from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-strided-ops-sub@v0.2.1-deno/mod.js';
 ```
 
@@ -167,7 +172,7 @@ sub.ndarray( 3, 'float64', x, 2, 1, 'float64', y, -1, y.length-1, 'float64', z, 
 var uniform = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/random-base-discrete-uniform' ).factory;
 import filledarray from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-filled@deno/mod.js';
 import filledarrayBy from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-filled-by@deno/mod.js';
-import sub from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-strided-ops-sub@v0.2.1-deno/mod.js';
+import sub from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-strided-ops-sub@deno/mod.js';
 
 var dt;
 var x;
