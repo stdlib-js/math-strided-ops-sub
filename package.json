@@ -45,7 +45,7 @@
     "@stdlib/math-base-ops-csubf": "^0.2.2",
     "@stdlib/math-base-ops-sub": "^0.2.2",
     "@stdlib/math-base-ops-subf": "^0.2.2",
-    "@stdlib/strided-base-binary": "^0.2.1",
+    "@stdlib/strided-base-binary": "^0.3.0",
     "@stdlib/strided-base-binary-dtype-signatures": "^0.2.2",
     "@stdlib/strided-base-binary-signature-callbacks": "^0.2.2",
     "@stdlib/strided-base-dtype-resolve-enum": "^0.2.2",
@@ -60,8 +60,8 @@
     "@stdlib/utils-try-require": "^0.2.2"
   },
   "devDependencies": {
-    "@stdlib/array-complex128": "^0.2.1",
-    "@stdlib/array-complex64": "^0.2.1",
+    "@stdlib/array-complex128": "^0.3.0",
+    "@stdlib/array-complex64": "^0.3.0",
     "@stdlib/array-filled": "^0.2.1",
     "@stdlib/array-filled-by": "^0.2.1",
     "@stdlib/array-float64": "^0.2.2",
