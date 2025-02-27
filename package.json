@@ -43,7 +43,7 @@
   "dependencies": {
     "@stdlib/math-base-ops-csub": "^0.2.2",
     "@stdlib/math-base-ops-csubf": "^0.2.2",
-    "@stdlib/math-base-ops-subf": "^0.2.2",
+    "@stdlib/number-float32-base-sub": "github:stdlib-js/number-float32-base-sub#main",
     "@stdlib/number-float64-base-sub": "github:stdlib-js/number-float64-base-sub#main",
     "@stdlib/strided-base-binary": "^0.3.0",
     "@stdlib/strided-base-binary-dtype-signatures": "^0.2.2",
