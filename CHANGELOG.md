@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-04-29)
+## Unreleased (2025-06-28)
 
 <section class="issues">
 
@@ -24,6 +24,7 @@ This release closes the following issue:
 
 <details>
 
+-   [`c17a2b8`](https://github.com/stdlib-js/stdlib/commit/c17a2b82f75b42e06a296f7fec15f77130a48483) - **chore:** regenerate generated files _(by Athan Reines)_
 -   [`04143be`](https://github.com/stdlib-js/stdlib/commit/04143befd0ed0b0abd102d6c19c9ba4313ecfbae) - **style:** re-enable lint rule [(#6838)](https://github.com/stdlib-js/stdlib/pull/6838) _(by Shabareesh Shetty)_
 -   [`9980e59`](https://github.com/stdlib-js/stdlib/commit/9980e591455a4b5a51c3014f2bf43f3ab6dcc5d9) - **chore:** fix JavaScript lint errors [(#6324)](https://github.com/stdlib-js/stdlib/pull/6324) _(by Kavyansh-Bagdi)_
 -   [`89ecfe0`](https://github.com/stdlib-js/stdlib/commit/89ecfe0212aef0448017f8e404a3862fda851170) - **refactor:** update paths _(by Gururaj Gurram)_
@@ -41,8 +42,9 @@ This release closes the following issue:
 
 ### Contributors
 
-A total of 3 people contributed to this release. Thank you to the following contributors:
+A total of 4 people contributed to this release. Thank you to the following contributors:
 
+-   Athan Reines
 -   Gururaj Gurram
 -   Kavyansh-Bagdi
 -   Shabareesh Shetty
