@@ -4,7 +4,17 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-06-28)
+## Unreleased (2025-06-29)
+
+<section class="bug-fixes">
+
+### Bug Fixes
+
+-   [`c05f9db`](https://github.com/stdlib-js/stdlib/commit/c05f9db53534dc0b8ea6430dd861a3efe40b7254) - update supported dtypes
+
+</section>
+
+<!-- /.bug-fixes -->
 
 <section class="issues">
 
@@ -24,6 +34,7 @@ This release closes the following issue:
 
 <details>
 
+-   [`c05f9db`](https://github.com/stdlib-js/stdlib/commit/c05f9db53534dc0b8ea6430dd861a3efe40b7254) - **fix:** update supported dtypes _(by Athan Reines)_
 -   [`c17a2b8`](https://github.com/stdlib-js/stdlib/commit/c17a2b82f75b42e06a296f7fec15f77130a48483) - **chore:** regenerate generated files _(by Athan Reines)_
 -   [`04143be`](https://github.com/stdlib-js/stdlib/commit/04143befd0ed0b0abd102d6c19c9ba4313ecfbae) - **style:** re-enable lint rule [(#6838)](https://github.com/stdlib-js/stdlib/pull/6838) _(by Shabareesh Shetty)_
 -   [`9980e59`](https://github.com/stdlib-js/stdlib/commit/9980e591455a4b5a51c3014f2bf43f3ab6dcc5d9) - **chore:** fix JavaScript lint errors [(#6324)](https://github.com/stdlib-js/stdlib/pull/6324) _(by Kavyansh-Bagdi)_
