@@ -10,6 +10,7 @@
 
 ### Bug Fixes
 
+-   [`59fda0c`](https://github.com/stdlib-js/stdlib/commit/59fda0ce064e449e51484a9724ca38abf1020762) - update include path
 -   [`c05f9db`](https://github.com/stdlib-js/stdlib/commit/c05f9db53534dc0b8ea6430dd861a3efe40b7254) - update supported dtypes
 
 </section>
@@ -34,6 +35,7 @@ This release closes the following issue:
 
 <details>
 
+-   [`59fda0c`](https://github.com/stdlib-js/stdlib/commit/59fda0ce064e449e51484a9724ca38abf1020762) - **fix:** update include path _(by Athan Reines)_
 -   [`f3447c1`](https://github.com/stdlib-js/stdlib/commit/f3447c17f9bdaffc9271c425aa9de5507bc37807) - **build:** fix function aliases _(by Athan Reines)_
 -   [`c05f9db`](https://github.com/stdlib-js/stdlib/commit/c05f9db53534dc0b8ea6430dd861a3efe40b7254) - **fix:** update supported dtypes _(by Athan Reines)_
 -   [`c17a2b8`](https://github.com/stdlib-js/stdlib/commit/c17a2b82f75b42e06a296f7fec15f77130a48483) - **chore:** regenerate generated files _(by Athan Reines)_
