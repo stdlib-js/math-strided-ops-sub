@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-05-14)
+## Unreleased (2026-05-17)
 
 <section class="commits">
 
@@ -12,6 +12,7 @@
 
 <details>
 
+-   [`7b1cb99`](https://github.com/stdlib-js/stdlib/commit/7b1cb991f5525a57cfa7254bb7682060a6d85c7b) - **chore:** use `format` for error messages in strided build scripts [(#12178)](https://github.com/stdlib-js/stdlib/pull/12178) _(by Philipp Burckhardt)_
 -   [`0dc62ae`](https://github.com/stdlib-js/stdlib/commit/0dc62ae39a4817ff888e9736c3ea599f6beff4e5) - **build:** replace `eslint-plugin-node` with `eslint-plugin-n` [(#10952)](https://github.com/stdlib-js/stdlib/pull/10952) _(by Philipp Burckhardt, Athan Reines)_
 -   [`68a70e3`](https://github.com/stdlib-js/stdlib/commit/68a70e3e372c8c4c625977401a67d9ab4d9b9ae3) - **bench:** refactor to use string interpolation in `math/strided/ops/sub` [(#11093)](https://github.com/stdlib-js/stdlib/pull/11093) _(by Partha Das)_
 
