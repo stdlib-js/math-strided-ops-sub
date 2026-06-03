@@ -43,43 +43,37 @@ limitations under the License.
 
 <!-- /.intro -->
 
+<section class="installation">
 
+## Installation
+
+```bash
+npm install @stdlib/math-strided-ops-sub
+```
+
+Alternatively,
+
+-   To load the package in a website via a `script` tag without installation and bundlers, use the [ES Module][es-module] available on the [`esm`][esm-url] branch (see [README][esm-readme]).
+-   If you are using Deno, visit the [`deno`][deno-url] branch (see [README][deno-readme] for usage intructions).
+-   For use in Observable, or in browser/node environments, use the [Universal Module Definition (UMD)][umd] build available on the [`umd`][umd-url] branch (see [README][umd-readme]).
+
+The [branches.md][branches-url] file summarizes the available branches and displays a diagram illustrating their relationships.
+
+To view installation and usage instructions specific to each branch build, be sure to explicitly navigate to the respective README files on each branch, as linked to above.
+
+</section>
 
 <section class="usage">
 
 ## Usage
 
-To use in Observable,
-
 ```javascript
-sub = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/math-strided-ops-sub@umd/browser.js' )
-```
-
-To vendor stdlib functionality and avoid installing dependency trees for Node.js, you can use the UMD server build:
-
-```javascript
-var sub = require( 'path/to/vendor/umd/math-strided-ops-sub/index.js' )
-```
-
-To include the bundle in a webpage,
-
-```html
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/math-strided-ops-sub@umd/browser.js"></script>
-```
-
-If no recognized module system is present, access bundle contents via the global scope:
-
-```html
-<script type="text/javascript">
-(function () {
-    window.sub;
-})();
-</script>
+var sub = require( '@stdlib/math-strided-ops-sub' );
 ```
 
 #### sub( N, dtypeX, x, strideX, dtypeY, y, strideY, dtypeZ, z, strideZ )
 
-Subtracts each element in a strided array `x` to a corresponding element in a strided array `y` and assigns the results to elements in a strided array `z`.
+Subtracts each element in a strided array `y` from a corresponding element in a strided array `x` and assigns the results to elements in a strided array `z`.
 
 ```javascript
 var Float64Array = require( '@stdlib/array-float64' );
@@ -134,12 +128,12 @@ var y1 = new Float64Array( y0.buffer, y0.BYTES_PER_ELEMENT*3 ); // start at 4th 
 var z1 = new Float64Array( z0.buffer, z0.BYTES_PER_ELEMENT*2 ); // start at 3rd element
 
 sub( 3, 'float64', x1, -2, 'float64', y1, 1, 'float64', z1, 1 );
-// z0 => <Float64Array>[ 0.0, 0.0, -4.0, 0.0, -5.0, 0.0 ]
+// z0 => <Float64Array>[ 0.0, 0.0, -4.0, -10.0, -5.0, 0.0 ]
 ```
 
 #### sub.ndarray( N, dtypeX, x, strideX, offsetX, dtypeY, y, strideY, offsetY, dtypeZ, z, strideZ, offsetZ )
 
-Subtracts each element in a strided array `x` to a corresponding element in a strided array `y` and assigns the results to elements in a strided array `z` using alternative indexing semantics.
+Subtracts each element in a strided array `y` from a corresponding element in a strided array `x` and assigns the results to elements in a strided array `z` using alternative indexing semantics.
 
 ```javascript
 var Float64Array = require( '@stdlib/array-float64' );
@@ -168,7 +162,7 @@ var y = new Float64Array( [ 1.0, 2.0, 3.0, 4.0, 5.0, 6.0 ] );
 var z = new Float64Array( x.length );
 
 sub.ndarray( 3, 'float64', x, 2, 1, 'float64', y, -1, y.length-1, 'float64', z, 1, 0 );
-// z => <Float64Array>[ -5.0, 0.0, -4.0, 0.0, 0.0, 0.0 ]
+// z => <Float64Array>[ -5.0, -10.0, -4.0, 0.0, 0.0, 0.0 ]
 ```
 
 </section>
@@ -187,13 +181,8 @@ sub.ndarray( 3, 'float64', x, 2, 1, 'float64', y, -1, y.length-1, 'float64', z, 
 
 <!-- eslint no-undef: "error" -->
 
-```html
-<!DOCTYPE html>
-<html lang="en">
-<body>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/random-base-discrete-uniform@umd/browser.js"></script>
-<script type="text/javascript">
-(function () {.factory;
+```javascript
+var uniform = require( '@stdlib/random-base-discrete-uniform' ).factory;
 var filledarray = require( '@stdlib/array-filled' );
 var filledarrayBy = require( '@stdlib/array-filled-by' );
 var sub = require( '@stdlib/math-strided-ops-sub' );
@@ -220,11 +209,6 @@ for ( i = 0; i < dt.length; i++ ) {
     console.log( z );
     console.log( '' );
 }
-
-})();
-</script>
-</body>
-</html>
 ```
 
 </section>
@@ -320,13 +304,13 @@ Copyright &copy; 2016-2026. The Stdlib [Authors][stdlib-authors].
 
 [mdn-typed-array]: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/TypedArray
 
-[@stdlib/strided/dtypes]: https://github.com/stdlib-js/strided-dtypes/tree/umd
+[@stdlib/strided/dtypes]: https://github.com/stdlib-js/strided-dtypes
 
 <!-- <related-links> -->
 
-[@stdlib/math/strided/ops/add]: https://github.com/stdlib-js/math-strided-ops-add/tree/umd
+[@stdlib/math/strided/ops/add]: https://github.com/stdlib-js/math-strided-ops-add
 
-[@stdlib/math/strided/ops/mul]: https://github.com/stdlib-js/math-strided-ops-mul/tree/umd
+[@stdlib/math/strided/ops/mul]: https://github.com/stdlib-js/math-strided-ops-mul
 
 <!-- </related-links> -->
 
